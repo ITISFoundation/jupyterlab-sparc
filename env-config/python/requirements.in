@@ -1,0 +1,8 @@
+ipywidgets
+matplotlib
+voila
+sparc.client
+requests
+tqdm
+mapclient
+python.client-search-tool @ git+https://github.com/sparc-map-core/pythonclientsearchtool#egg=pythonclienstsearchtool
