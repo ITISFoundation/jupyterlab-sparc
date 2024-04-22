@@ -45,6 +45,8 @@ Execute the code snippets of one the SPARC Python Client Tutorial, for example [
 
 ## Changelog
 
+### [1.0.3] - 2024-04-22
+Final version (for production)
 
 ### [1.0.0] - 2024-04-18
 First version
