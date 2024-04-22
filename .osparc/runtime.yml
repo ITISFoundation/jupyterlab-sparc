@@ -17,7 +17,7 @@ settings:
   - name: env
     type: string
     value:
-      - DISPLAY=:0
+      - DISPLAY=:1
   - name: Resources
     type: Resources
     value:
