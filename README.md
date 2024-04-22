@@ -1,6 +1,6 @@
 # JupyterLab with SPARC Tools
 
-JupyterLab with Python kernel and different SPARC tools installed, including the [SPARC Python Client](https://docs.sparc.science/docs/sparc-python-client).
+JupyterLab with Python kernel and different SPARC-relevand tools installed, including the [SPARC Python Client](https://docs.sparc.science/docs/sparc-python-client) and Python dependencies from [Docker_SPARC](https://github.com/cchorn/Docker_SPARC).
 
 ## How to develop this o²S²PARC Service
 

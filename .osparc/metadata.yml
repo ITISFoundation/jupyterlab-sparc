@@ -3,7 +3,7 @@ key: simcore/services/dynamic/jupyterlab-sparc
 type: dynamic
 integration-version: 2.0.0
 version: 1.0.2
-description: JupyterLab with Python kernel and different SPARC tools installed.
+description: JupyterLab with Python kernel and different SPARC-relevand tools installed, including the [SPARC Python Client](https://docs.sparc.science/docs/sparc-python-client) and Python dependencies from [Docker_SPARC](https://github.com/cchorn/Docker_SPARC).
 contact: iavarone@itis.swiss
 thumbnail: https://github.com/ITISFoundation/osparc-assets/blob/main/assets/jupyter-sparc.png?raw=true
 authors:
