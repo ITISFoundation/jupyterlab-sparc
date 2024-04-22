@@ -32,12 +32,14 @@ RUN apt-get update && \
   python3-pyqt5 \ 
   libopengl0 \
   libglu1-mesa \
+  xvfb \
   libxcb-cursor0 \
   gcc \
   python3-dev \
   && \
   apt-get clean && rm -rf /var/lib/apt/lists/* 
 
+ENV DISPLAY=:99
 ENV REQ_FILE="requirements.txt"
 # ------------------------------  Python packages   --------------
 # This will install the additional packages that you specified in requirements.txt in the pre-existing Python kernel

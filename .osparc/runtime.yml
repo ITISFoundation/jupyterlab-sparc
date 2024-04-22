@@ -14,10 +14,6 @@ settings:
         Source: /tmp/.X11-unix
         Target: /tmp/.X11-unix
         Type: bind
-  - name: env
-    type: string
-    value:
-      - DISPLAY=:1
   - name: Resources
     type: Resources
     value:

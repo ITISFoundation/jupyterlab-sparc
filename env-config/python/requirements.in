@@ -1,8 +1,16 @@
 ipywidgets
 matplotlib
+pandas
+ggplot
+seaborn
+plotly
+bokeh
+altair
+scikit-learn
+scikit-image
+neo
+h5py
 voila
 sparc.client
 requests
 tqdm
-mapclient
-python.client-search-tool @ git+https://github.com/sparc-map-core/pythonclientsearchtool#egg=pythonclienstsearchtool
