@@ -2,7 +2,7 @@ name: JupyterLab SPARC
 key: simcore/services/dynamic/jupyterlab-sparc
 type: dynamic
 integration-version: 2.0.0
-version: 1.0.1
+version: 1.0.2
 description: JupyterLab with Python kernel and different SPARC tools installed.
 contact: iavarone@itis.swiss
 thumbnail: https://github.com/ITISFoundation/osparc-assets/blob/cb43207b6be2f4311c93cd963538d5718b41a023/assets/default-thumbnail-cookiecutter-osparc-service.png?raw=true
