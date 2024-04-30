@@ -22,6 +22,7 @@ define(['base/js/namespace'], function(Jupyter){
 EOF
 
 # SEE https://jupyter-server.readthedocs.io/en/latest/other/full-config.html
+# disable delete_to_trash to avoid https://github.com/ITISFoundation/osparc-issues/issues/1296
 cat > .jupyter_config.json <<EOF
 {
     "FileCheckpoints": {
@@ -49,7 +50,8 @@ cat > .jupyter_config.json <<EOF
         "token": "${NOTEBOOK_TOKEN}"
     },
     "FileContentsManager": {
-        "preferred_dir": "${NOTEBOOK_BASE_DIR}/workspace/"
+        "preferred_dir": "${NOTEBOOK_BASE_DIR}/workspace/",
+        "delete_to_trash": false
     }
 }
 EOF
