@@ -43,11 +43,5 @@ make publish-local
 ```
 Execute the code snippets of one the SPARC Python Client Tutorial, for example [Download public data, scaffolds and run computations](https://docs.sparc.science/docs/getting-started-with-the-sparc-python-client)
 
-## Changelog
 
-### [1.0.3] - 2024-04-22
-Final version (for production)
-
-### [1.0.0] - 2024-04-18
-First version
 

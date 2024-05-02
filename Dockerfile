@@ -47,7 +47,6 @@ ENV REQ_FILE="requirements.txt"
 
 COPY --chown=$NB_UID:$NB_GID env-config/python/${REQ_FILE} ${NOTEBOOK_BASE_DIR}/${REQ_FILE}
 RUN pip install -r ${NOTEBOOK_BASE_DIR}/${REQ_FILE}
-RUN pip install --upgrade jupyter-server
 ## ----------------------------------------------------------------------
 
 
