@@ -1,6 +1,6 @@
 services:
   jupyterlab-sparc:
-    image: simcore/services/dynamic/jupyterlab-sparc:1.0.4
+    image: simcore/services/dynamic/jupyterlab-sparc:1.0.5
     ports:
       - "8888:8888"
     environment:
