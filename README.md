@@ -42,6 +42,3 @@ Or publish it in a local o²S²PARC deploy:
 make publish-local
 ```
 Execute the code snippets of one the SPARC Python Client Tutorial, for example [Download public data, scaffolds and run computations](https://docs.sparc.science/docs/getting-started-with-the-sparc-python-client)
-
-
-
